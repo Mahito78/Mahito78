@@ -40,21 +40,21 @@ line-height: 0.2;
 }
 .cloud{
 position: absolute;
-height: 100px;
+height: 10px;
 
 }
 .cloud:nth-child(2){
-    top: 120px; 
+    top: 20px; 
     -webkit-animation: wind 80s both infinite linear reverse; 
             animation: wind 80s both infinite linear reverse;
 }
 .cloud:nth-child(3){
-    top: 280px;
+    top: 8px;
     -webkit-animation: wind 50s both infinite linear reverse;
             animation: wind 50s both infinite linear reverse;
 }
 .cloud:nth-child(4){
-    top: 450px;
+    top: 5px;
     -webkit-animation: wind 30s both infinite linear reverse;
             animation: wind 30s both infinite linear reverse;
 }
