@@ -15,9 +15,21 @@ padding: 0;
 position: relative; /*Because we want to position items on and in them!*/
 }
 
-.col-6{
+.col-2{
+border: 20px solid transparent;
+padding: 15px;
 border-image: url("https://raw.githubusercontent.com/LantareCode/random-this-and-thats/master/CSS/SuperMario-Animation/images/groundblock.png") 20;
-margin-right: 5px;
+background-color: #bed0d1dc; 
+border-image-repeat: repeat;
+// height: 90%;
+}
+
+.col-10{    
+border: 20px solid transparent;
+padding: 15px;
+border-image: url("https://raw.githubusercontent.com/LantareCode/random-this-and-thats/master/CSS/SuperMario-Animation/images/groundblock.png") 20;
+background-color: #c7cbd3; 
+border-image-repeat: repeat; 
 }
 
 .sky{
@@ -49,17 +61,17 @@ height: 30px;
 
 }
 .cloud:nth-child(2){
-    top: 80px; 
+    top: 120px; 
     -webkit-animation: wind 80s both infinite linear reverse; 
             animation: wind 80s both infinite linear reverse;
 }
 .cloud:nth-child(3){
-    top: 10px;
+    top: 100px;
     -webkit-animation: wind 50s both infinite linear reverse;
             animation: wind 50s both infinite linear reverse;
 }
 .cloud:nth-child(4){
-    top: 35px;
+    top: 80px;
     -webkit-animation: wind 30s both infinite linear reverse;
             animation: wind 30s both infinite linear reverse;
 }
@@ -73,19 +85,21 @@ top: -120px;
     margin: -2px;
 }
     .brick:nth-child(1){
-        left:600px;
+        left:400px;
     } 
     .brick:nth-child(2){
-        left:640px;
+        left:440px;
     } 
     .brick:nth-child(3){
-        left:680px;
+        left:480px;
     } 
     .brick:nth-child(4){
-        left:720px;
+        left:520px;
     } 
 
-
+a {
+  text-decoration: none; /* Supprimer le soulignement */
+}
 
 
 .bush{
@@ -138,3 +152,54 @@ to{left: 100%;}
 from{left: -300px;}
 to{left: 100%;}
 }
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .title {
+    font-size: 36px;
+    color: #fff;
+    font-family: "Press Start 2P", sans-serif;
+    margin: 0;
+  }
+  
+  .navigation {
+    margin-top: 20px;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu li {
+    margin-right: 15px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .content {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .footer {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Press Start 2P", sans-serif;
+    margin-top: 50px;
+  }
+  
+  
+  
