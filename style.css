@@ -40,28 +40,28 @@ line-height: 0.2;
 }
 .cloud{
 position: absolute;
-height: 10px;
+height: 30px;
 
 }
 .cloud:nth-child(2){
-    top: 20px; 
+    top: 80px; 
     -webkit-animation: wind 80s both infinite linear reverse; 
             animation: wind 80s both infinite linear reverse;
 }
 .cloud:nth-child(3){
-    top: 8px;
+    top: 10px;
     -webkit-animation: wind 50s both infinite linear reverse;
             animation: wind 50s both infinite linear reverse;
 }
 .cloud:nth-child(4){
-    top: 5px;
+    top: 35px;
     -webkit-animation: wind 30s both infinite linear reverse;
             animation: wind 30s both infinite linear reverse;
 }
 
 .skyblocks{
 position: absolute;   
-top: -250px;
+top: -120px;
 }
 .brick{     
     position: fixed;        
@@ -71,13 +71,13 @@ top: -250px;
         left:600px;
     } 
     .brick:nth-child(2){
-        left:670px;
+        left:640px;
     } 
     .brick:nth-child(3){
-        left:740px;
+        left:680px;
     } 
     .brick:nth-child(4){
-        left:810px;
+        left:720px;
     } 
 
 
@@ -85,7 +85,7 @@ top: -250px;
 
 .bush{
 position: absolute;
-top:-70px;
+bottom:30px;
 }
 .bush:nth-child(1){
     left: 150px;   
