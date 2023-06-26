@@ -15,6 +15,11 @@ padding: 0;
 position: relative; /*Because we want to position items on and in them!*/
 }
 
+.col-6{
+border-image: url("https://raw.githubusercontent.com/LantareCode/random-this-and-thats/master/CSS/SuperMario-Animation/images/groundblock.png") 20;
+margin-right: 5px;
+}
+
 .sky{
 height: 90%;
 background-color: #548CFF;    
