@@ -15,10 +15,10 @@ padding: 0;
 position: relative; /*Because we want to position items on and in them!*/
 }
 
-.col-2{
-border: 20px solid transparent;
-padding: 15px;
-border-image: url("https://raw.githubusercontent.com/LantareCode/random-this-and-thats/master/CSS/SuperMario-Animation/images/groundblock.png") 20;
+.col-2 {
+border: 20px solid transparent !important; 
+padding: 15px !important;
+border-image: url("https://raw.githubusercontent.com/LantareCode/random-this-and-thats/master/CSS/SuperMario-Animation/images/groundblock.png") 20 !important;
 background-color: #bed0d1dc; 
 border-image-repeat: repeat;
 }
