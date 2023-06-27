@@ -97,10 +97,6 @@ top: -120px;
         left:520px;
     } 
 
-a {
-  text-decoration: none; /* Supprimer le soulignement */
-}
-
 
 .bush{
 position: absolute;
@@ -167,6 +163,16 @@ to{left: 100%;}
   
   .navigation {
     margin-top: 20px;
+  }
+
+  .topline-ens {
+    font-size: 16px;
+    color:#FFFFFF;
+  }
+
+  .register a:link{
+    font-size: 16px;
+    color:#d60a0a;
   }
   
   .menu {
