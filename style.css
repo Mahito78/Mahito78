@@ -111,7 +111,7 @@ bottom:30px;
     left: 1500px;;   
 }
 
-.mario{
+.mario2{
 position: absolute;
 width: 71px;
 height: 72px;
@@ -125,6 +125,23 @@ left:0px;
         animation: play 0.8s steps(4) infinite,
             run 7s both infinite linear;
 }
+
+.mario{
+    position: absolute;
+    width: 71px;
+    height: 72px;
+    background: url('https://raw.githubusercontent.com/Mahito78/Mahito78.github.io/main/img/mario_walking2.png') left center;    
+    top:-70px;
+    left:0px;
+
+    -webkit-animation: play 0.8s steps(4) infinite,
+            run 7s both infinite linear;
+
+        animation: play 0.8s steps(4) infinite,
+            run 7s both infinite linear;
+   
+}
+
 @-webkit-keyframes play{
 100%{background-position: -284px;}
 }
