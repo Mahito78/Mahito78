@@ -237,6 +237,10 @@ to{left: 100%;}
     top: 60px;
     animation: goAlien2 8s infinite alternate linear;
   }
+
+.scorebar a{color:white !important;}
+.scorebar a:hover{color:lightblue !important;}
+.scorebar a:active{color:lightblue !important;}
   
   @keyframes go {
     from {
