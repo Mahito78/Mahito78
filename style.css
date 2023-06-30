@@ -115,7 +115,7 @@ bottom:30px;
 position: absolute;
 width: 71px;
 height: 72px;
-background: url('https://raw.githubusercontent.com/LantareCode/random-this-and-thats/master/CSS/SuperMario-Animation/images/mariowalking/result.png') left center;    
+background: url('img/mario_walking2.png') left center;    
 top:-70px;
 left:0px;
 
@@ -130,9 +130,10 @@ left:0px;
     position: absolute;
     width: 71px;
     height: 72px;
-    background: url('https://raw.githubusercontent.com/Mahito78/Mahito78.github.io/main/img/mario_walking2.png') left center;    
+    background: url('img/mario_walking3.png') left center;    
     top:-70px;
     left:0px;
+    transition: transform 0.1s;
 
     -webkit-animation: play 0.8s steps(4) infinite,
             run 7s both infinite linear;
@@ -142,12 +143,28 @@ left:0px;
    
 }
 
+.mario:active{
+    /* Fade out */
+    /* Move over to the right */
+
+    transform: translateY(-30px);
+  }
+
 @-webkit-keyframes play{
 100%{background-position: -284px;}
 }
 @keyframes play{
 100%{background-position: -284px;}
 }
+
+@keyframes jump{
+    from {
+        down: 0%;
+      }to{
+        down: 20%;
+      }
+}
+
 @-webkit-keyframes run{
 from{left: -200px;}
 to{left: 100%;}

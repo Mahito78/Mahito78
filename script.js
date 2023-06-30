@@ -7,8 +7,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function decrementer(){
         timing-=1;
+        if(timing%356==0){
+            document.getElementById("mario_mage").style.background = "url('img/mario_walking2.png')";
+        }
+        if(timing%340==0){
+            document.getElementById("mario_mage").style.background = "url('img/mario_walking.png')";
+        }
         timeElement.innerText = timing;
     }
+
 
     function incrementer() {
       var date = new Date();
